@@ -1,7 +1,7 @@
 body {
   background-color: #eaeaea;
   font-family: "Times New Roman", Times, serif;
-  color: #999;
+  color: #000;
   padding: 0;
   top: 0 !important;
 }
@@ -16,11 +16,11 @@ body {
 .navbar-brand {
   font-size: 22px;
   letter-spacing: 1px;
-  color: #aaa;
+  color: #000000;
 }
 
 .nav-link {
-  color: #aaa !important;
+  color: #000000 !important;
   font-size: 14px;
   letter-spacing: 1px;
   margin: 0 10px;
@@ -29,7 +29,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #ccc !important;
+  color: #000000 !important;
 }
 
 /* Testimonials Section */
@@ -41,7 +41,7 @@ body {
 .testimonials-section h2 {
   font-size: 28px;
   letter-spacing: 1px;
-  color: #b0b0b0;
+  color: #000000;
 }
 
 .testimonial-card {
@@ -59,7 +59,7 @@ body {
   background-color: rgba(240, 240, 240, 0.9);
   font-size: 14px;
   font-weight: bold;
-  color: #999;
+  color: #000000;
   border-radius: 0 0 5px 0;
 }
 
@@ -77,14 +77,18 @@ body {
 
 /* Testimonial 2 */
 .testimonial-2 {
-  text-align: center;
-  border-top: 1px solid #eee;
-  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #eee;
+  padding-left: 20px;
 }
 
-.testimonial-2 .quote-icon {
-  font-size: 36px;
-  color: #ddd;
+.testimonial-2 .testimonial-image {
+  margin-bottom: 20px;
+}
+
+.testimonial-1 .testimonial-image {
+  margin-bottom: 20px;
 }
 
 /* Testimonial 3 */
@@ -111,19 +115,19 @@ body {
   margin-bottom: 15px;
   font-size: 15px;
   line-height: 1.5;
-  color: #aaaaaa;
+  color: #000000;
 }
 
 .testimonial-author {
   font-weight: 600;
   margin-bottom: 2px;
   font-size: 14px;
-  color: #999;
+  color: #000000;
 }
 
 .testimonial-location {
   font-size: 12px;
-  color: #aaa;
+  color: #000000;
   margin-bottom: 0;
 }
 
@@ -140,13 +144,13 @@ body {
   letter-spacing: 1px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #777;
+  color: #000000;
   font-weight: normal;
 }
 
 .radio-text {
   font-size: 14px;
-  color: #999;
+  color: #000000;
   margin-left: 5px;
 }
 
@@ -195,7 +199,7 @@ textarea.form-control {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 14px;
-  color: #b0b0b0;
+  color: #000000;
   border-color: #d0d0d0;
 }
 
@@ -203,7 +207,7 @@ textarea.form-control {
 .error-message {
   display: none;
   font-size: 12px;
-  color: #c0a0a0;
+  color: #000000;
   margin-top: 5px;
   font-style: italic;
   font-weight: 500;
@@ -234,14 +238,14 @@ textarea.form-control {
 .goog-te-gadget {
   font-family: "Times New Roman", Times, serif !important;
   font-size: 14px !important;
-  color: #999 !important;
+  color: #000000 !important;
 }
 
 .goog-te-gadget .goog-te-combo {
   padding: 5px;
   border: 1px solid #ddd;
   border-radius: 3px;
-  color: #666;
+  color: #000000;
 }
 
 .goog-logo-link {
